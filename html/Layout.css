@@ -1,0 +1,246 @@
+/**************************************
+
+Manuel des fonctions :
+
+width : ?px ( largeur en pixel )
+height : ?px ( hauteur en pixel )
+
+padding-top/left : ? ( taille de la marge a partir du haut et de la gauche )
+padding : ? ?px ?px ?px ( placement du texte par rapport à la marge ) ( haut | droit | bas | gauche )
+margin : ? ( ressemble a padding mais de façon plus large )
+
+font-family : ? ( police d'écriture )
+font-size : ? ( taille de la police d'écriture )
+
+border : ?px ?type ?color ( bordure : taille | type | couleur )
+
+display : ?type ( traite l'élement en ligne ou en colonne )
+
+
+*****************************************/
+
+/**********CLASSES DE BASE **************/
+
+h1 {
+    color:rgb(0, 0, 0);
+    width: auto;
+    font-size: xx-large;
+    padding-top: 5;
+    padding-left: 50;
+    display : flex 1;
+}
+
+h2 {    /* Espace dans le header*/
+    border : 1px solid blue;
+    padding: 20 1000px 15px 20px;
+}
+
+.dis {
+    padding: 30 10px 10px 10px;
+}
+
+html {
+    font-family: Arial;
+    background-color: whitesmoke;
+}
+
+
+a {
+    padding : 1 1px 1px 10px;
+}
+
+h3 {
+    padding : 20 20px 10px 10px;
+    border: 1px solid red;
+}
+
+/**************BOITE D'INTRO***********************/
+
+.layout {
+    border: 1px solid blue;
+    display: flex ;
+}
+
+.wrapper {  /* Tout ce qui concerne la boite me decouvrir*/
+    border : 2px solid black;
+    background-color: violet;
+    height : 300px; 
+    width : 720px; 
+    margin-left: 500;
+    margin-top: 150;
+    display : flex;
+    border-radius: 15px;
+}
+
+.box {  /* Tout ce qui concerne les boites dans la grtande boite (définies par une bordure bleue)*/
+    margin : 10;
+    border: 1px solid blue;
+    width : 250px;
+    height : 280px;
+}
+
+.button1 {
+    border : 1;
+    line-height: 2.5; /*taillle du bouton*/
+    width : 150;
+    padding : 5 20px;  /*La position du texte dans le bouton*/
+    background-color: whitesmoke;
+    border-radius: 10px; /*les arrondies du bouton*/
+    margin : 50; /* Posiiton approximative du bouton */
+}
+
+
+/****************BOITE PROFESSIONNEL********************/
+
+.prof_1 {
+
+    border: 1px solid blue;
+    padding: 10 10px 15px 20px;
+}
+
+.prof_2 {
+
+    border: 1px solid blue;
+    padding: 10 10px 15px 20px;
+}
+
+.prof_3 {
+
+    border: 1px solid blue;
+    padding: 10 10px 10px 20px;
+}
+
+.prof {  /* Tout ce qui concerne la boit des projets pro*/
+    border : 2px solid black;
+    background-color: violet;
+    height : 600px; 
+    width : 720px; 
+    margin-left: 500;
+    margin-top: 150;
+    display : flex;
+    border-radius: 15px;
+}
+
+.button2 {
+    border : 1;
+    line-height: 2.5; /*taillle du bouton*/
+    width : 180;
+    padding : 2;  /*La position du texte dans le bouton*/
+    background-color: whitesmoke;
+    border-radius: 10px; /*les arrondies du bouton*/
+    margin : 10; /* Posiiton approximative du bouton */
+}
+
+
+/****************BOITE PERSONNEL********************/
+
+.perso_1 {
+
+    border: 1px solid blue;
+    padding: 10 10px 15px 20px;
+}
+
+.perso_2 {
+
+    border: 1px solid blue;
+    padding: 10 10px 15px 20px;
+}
+
+.perso_3 {
+
+    border: 1px solid blue;
+    padding: 10 10px 10px 20px;
+}
+
+.perso {  /* Tout ce qui concerne la boit des projets pro*/
+    border : 2px solid black;
+    background-color: violet;
+    height : 600px; 
+    width : 720px; 
+    margin-left: 500;
+    margin-top: 150;
+    display : flex;
+    border-radius: 15px;
+}
+
+.button2 {
+    border : 1;
+    line-height: 2.5; /*taillle du bouton*/
+    width : 180;
+    padding : 2;  /*La position du texte dans le bouton*/
+    background-color: whitesmoke;
+    border-radius: 10px; /*les arrondies du bouton*/
+    margin : 10; /* Posiiton approximative du bouton */
+}
+
+
+/****************TRAITEMENT D'IMAGES********************/
+
+/**************PERSONNEL***********/
+
+.img_perso1 {  
+    height: 200px;
+    border : 1px solid black;
+}
+
+.img_perso2 {  
+    height: 200px;
+    border : 1px solid black;
+}
+
+.img_perso3 {  
+    height: 200px;
+    border : 1px solid black;
+}
+
+.img_perso4 {  
+    height: 200px;
+    border : 1px solid black;
+}
+
+.img_perso5 {  
+    height: 200px;
+    border : 1px solid black;
+}
+
+.img_perso6 {  
+    height: 200px;
+    border : 1px solid black;
+}
+
+/*************Professionel***********/
+
+.img_prof1 {  
+    height: 200px;
+    border : 1px solid black;
+}
+
+.img_prof2 {  
+    height: 200px;
+    border : 1px solid black;
+}
+
+.img_prof3 {  
+    height: 200px;
+    border : 1px solid black;
+}
+
+.img_prof4 {  
+    height: 200px;
+    border : 1px solid black;
+}
+
+.img_prof5 {  
+    height: 200px;
+    border : 1px solid black;
+}
+
+.img_prof6 {  
+    height: 200px;
+    border : 1px solid black;
+}
+
+.Pdp {  
+    height: 200px;
+    border : 1px solid black;
+}
